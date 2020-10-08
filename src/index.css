@@ -35,7 +35,8 @@ body {
   opacity: 1;
   transform: scale(1.2);
 }
-
+.title {
+}
 .title h2,
 .title p {
   text-align: center;
@@ -90,7 +91,7 @@ label:hover {
 .img-grid {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 2rem;
   max-width: 940px;
 }

@@ -5,7 +5,7 @@ const Title = () => {
     <div className="title">
       <h2>INSTAGRAM</h2>
       <p>
-        Click the + Button to add your pictures and see it saved into the
+        Click the + Button to add your pictures and see it update in realtime through the
         realtime database
       </p>
     </div>
