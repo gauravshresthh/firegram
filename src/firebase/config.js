@@ -5,14 +5,14 @@ import 'firebase/firestore';
 // Your web app's Firebase configuration
 
 var firebaseConfig = {
-  apiKey: 'AIzaSyC4dSxeiS8YlDQ8oZ93_Ud-xK4tg07MzbU',
-  authDomain: 'firegram-gauravshrestha.firebaseapp.com',
-  databaseURL: 'https://firegram-gauravshrestha.firebaseio.com',
+  apiKey: process.env.FIREBASE_CONFIG_API_KEY,
+  authDomain: process.env.FIREBASE_CONFIG_AUTH_DOMAIN,
+  databaseURL: process.env.FIREBASE_CONFIG_DATABASE_URL,
   projectId: 'firegram-gauravshrestha',
-  storageBucket: 'firegram-gauravshrestha.appspot.com',
-  messagingSenderId: '771092419741',
-  appId: '1:771092419741:web:ff2b664c041e982f217074',
-  measurementId: 'G-LT1KJ8P661',
+  storageBucket: process.env.FIREBASE_CONFIG_STORAGE_BUCKET,
+  messagingSenderId: process.env.FIREBASE_CONFIG_MESSAGING_SENDER_ID,
+  appId: process.env.FIREBASE_CONFIG_APP_ID,
+  measurementId: process.env.FIREBASE_CONFIG_MEASUREMENT_ID,
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
