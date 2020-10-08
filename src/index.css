@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Sansita&display=swap');
+
 :root {
   --primary: #2cbfaa;
   --secondary: #0eb75c;
@@ -13,16 +15,15 @@ body {
   color: var(--secondary);
   background: #ffffff;
 }
-.App {
-  max-width: 960px;
-  margin: 0 auto;
-}
-.title h1 {
+.app-logo {
+  padding: 1rem 6rem;
   color: var(--primary);
   font-size: 1.2rem;
   letter-spacing: 2px;
   font-weight: normal;
+  text-decoration: none;
 }
+
 .title h2,
 .title p {
   text-align: center;
@@ -75,10 +76,11 @@ label:hover {
 
 /* image grid styles */
 .img-grid {
-  margin: 20px auto;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 2rem;
+  max-width: 940px;
 }
 .img-wrap {
   overflow: hidden;
@@ -114,4 +116,41 @@ label:hover {
   margin: 10vh auto;
   box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
   border: 3px solid white;
+}
+
+.paper {
+  color: #ff4a4a;
+}
+
+/* Home */
+
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 6rem;
+  grid-gap: 5rem;
+}
+
+.home .hero-img img {
+  width: 100%;
+}
+.home h1 {
+  font-size: 2rem;
+}
+.hero-info p {
+  font-size: xx-small;
+  color: slategray;
+  text-align: left;
+  width: 70%;
+}
+
+.startBtn {
+  width: 200px;
+  background: var(--secondary);
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.3rem 1rem;
+  text-transform: uppercase;
+  font: x-small;
+  font-family: 'Sansita', sans-serif;
 }
