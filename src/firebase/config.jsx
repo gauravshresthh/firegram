@@ -7,9 +7,9 @@ import 'firebase/firestore';
 var firebaseConfig = {
   apiKey: process.env.FIREBASE_CONFIG_API_KEY,
   authDomain: process.env.FIREBASE_CONFIG_AUTH_DOMAIN,
-  databaseURL: process.env.FIREBASE_CONFIG_DATABASE_URL,
+  databaseURL: 'https://firegram-gauravshrestha.firebaseio.com',
   projectId: 'firegram-gauravshrestha',
-  storageBucket: process.env.FIREBASE_CONFIG_STORAGE_BUCKET,
+  storageBucket: 'firegram-gauravshrestha.appspot.com',
   messagingSenderId: process.env.FIREBASE_CONFIG_MESSAGING_SENDER_ID,
   appId: process.env.FIREBASE_CONFIG_APP_ID,
   measurementId: process.env.FIREBASE_CONFIG_MEASUREMENT_ID,
