@@ -151,6 +151,11 @@ label:hover {
 .home .hero-img img {
   width: 100%;
 }
+
+.home .hero-img:hover {
+  transition: all ease-in-out 0.7s;
+  transform: scale(1.05);
+}
 .home h1 {
   font-size: 2rem;
 }
