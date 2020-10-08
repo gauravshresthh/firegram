@@ -4,8 +4,11 @@ const Title = () => {
   return (
     <div className="title">
       <h1>IG</h1>
-      <h2>Your Pictures</h2>
-      <p>Welcome to the Firegram gallery</p>
+      <h2>INSTAGRAM</h2>
+      <p>
+        Click the + Button to add your pictures and see it saved into the
+        realtime database
+      </p>
     </div>
   );
 };
