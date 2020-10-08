@@ -15,13 +15,25 @@ body {
   color: var(--secondary);
   background: #ffffff;
 }
+
 .app-logo {
-  padding: 1rem 6rem;
+  padding: 1rem 8rem;
+}
+.app-logo img {
+  /* padding: 1rem 6rem;
   color: var(--primary);
   font-size: 1.2rem;
   letter-spacing: 2px;
   font-weight: normal;
-  text-decoration: none;
+  text-decoration: none; */
+  width: 4rem;
+  margin: 0 auto;
+  opacity: 0.7;
+  transition: all ease-in 0.7s;
+}
+.app-logo img:hover {
+  opacity: 1;
+  transform: scale(1.2);
 }
 
 .title h2,
@@ -98,8 +110,11 @@ label:hover {
   position: absolute;
   top: 0;
   left: 0;
+  transition: all ease-in 0.7s;
 }
-
+.img-wrap img:hover {
+  transform: scale(1.2);
+}
 /* modal styles */
 .backdrop {
   position: fixed;
@@ -127,8 +142,10 @@ label:hover {
 .home {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 6rem;
+  padding: 4rem 8rem;
   grid-gap: 5rem;
+  box-shadow: 4px 2px 6px rgba(72, 100, 125, 0.3),
+    inset -2px -2px 6px rgba(72, 100, 125, 0.1);
 }
 
 .home .hero-img img {
@@ -146,11 +163,20 @@ label:hover {
 
 .startBtn {
   width: 200px;
-  background: var(--secondary);
-  color: #ffffff;
+
   text-decoration: none;
   padding: 0.3rem 1rem;
   text-transform: uppercase;
   font: x-small;
   font-family: 'Sansita', sans-serif;
+  transition: all ease-in 0.7s;
+  opacity: 0.8;
+  background: #ffffff;
+  box-shadow: 4px 2px 6px rgba(72, 100, 125, 0.3),
+    inset -2px -2px 6px rgba(72, 100, 125, 0.1);
+  color: var(--secondary);
+}
+.startBtn:hover {
+  background: var(--secondary);
+  color: #ffffff;
 }
