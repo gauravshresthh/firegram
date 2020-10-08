@@ -1,4 +1,7 @@
 firegram 
 
 photo gallery app using react and firebase
-![image](https://cloud.githubusercontent.com/assets/9053854/24495974/fbf2e0cc-1547-11e7-846c-25b5fac7f6b1.png)
+
+
+![image](https://github.com/gauravshresthh/firegram/blob/master/public/assets/screenshots/insta-screnshot.png?raw=true)
+![image](https://github.com/gauravshresthh/firegram/blob/master/public/assets/screenshots/insta-screnshot2.png?raw=true)
