@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="home">
       <div className="hero-info">
-      <h1>Test the app on click ,<br/> <span className='paper'>Realtime Database</span></h1>
+      <h1>Start using on click <br/> <span className='paper'>Realtime Database</span></h1>
       <p>Instagram type image gallery built using React Js, React Router and Firebase . Used google cloud functions to interact with the realtime database. </p>
       <Link to='/posts' className='startBtn'>Get Started</Link>
       </div>

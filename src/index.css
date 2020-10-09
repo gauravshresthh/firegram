@@ -17,7 +17,6 @@ body {
 }
 
 .app-logo {
-  padding: 1rem 8rem;
 }
 .app-logo img {
   /* padding: 1rem 6rem;
@@ -27,7 +26,7 @@ body {
   font-weight: normal;
   text-decoration: none; */
   width: 4rem;
-  margin: 0 auto;
+
   opacity: 0.7;
   transition: all ease-in 0.7s;
 }
@@ -187,6 +186,26 @@ label:hover {
   color: #ffffff;
 }
 
+.app-nav {
+  display: flex;
+  justify-content: space-between;
+  height: 12vh;
+  padding: 1rem 8rem;
+  align-items: center;
+}
+
+.app-links_item {
+  text-decoration: none;
+  color: var(--secondary);
+
+  margin-right: 2em;
+  padding: 0.8rem;
+}
+
+.app-links_item:hover {
+  color: #ffffff;
+  background: var(--secondary);
+}
 @media only screen and (max-width: 600px) {
   .home {
     grid-template-columns: 1fr;
@@ -213,5 +232,8 @@ label:hover {
 
   .img-wrap {
     box-shadow: none;
+  }
+  .app-nav {
+    padding: 1rem;
   }
 }
