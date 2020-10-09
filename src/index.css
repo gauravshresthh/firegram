@@ -143,8 +143,8 @@ label:hover {
 .home {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 4rem 8rem;
-  grid-gap: 5rem;
+  padding: 4em 8em;
+  grid-gap: 5em;
   box-shadow: 4px 2px 6px rgba(72, 100, 125, 0.3),
     inset -2px -2px 6px rgba(72, 100, 125, 0.1);
 }
@@ -158,10 +158,10 @@ label:hover {
   transform: scale(1.05);
 }
 .home h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .hero-info p {
-  font-size: xx-small;
+  font-size: smaller;
   color: slategray;
   text-align: left;
   width: 70%;
@@ -171,7 +171,7 @@ label:hover {
   width: 200px;
 
   text-decoration: none;
-  padding: 0.3rem 1rem;
+  padding: 0.5rem 1.5rem;
   text-transform: uppercase;
   font: x-small;
   font-family: 'Sansita', sans-serif;
@@ -185,4 +185,33 @@ label:hover {
 .startBtn:hover {
   background: var(--secondary);
   color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  .home {
+    grid-template-columns: 1fr;
+    padding: 2em 0.6em;
+    grid-gap: 2em;
+    margin: 0 auto;
+  }
+  .home h1 {
+    font-size: 2rem;
+  }
+  .hero-info p {
+    font-size: smaller;
+    color: slategray;
+
+    width: auto;
+  }
+
+  .img-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5em;
+    max-width: 940px;
+    padding: 1rem;
+  }
+
+  .img-wrap {
+    box-shadow: none;
+  }
 }
